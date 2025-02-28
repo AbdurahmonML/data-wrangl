@@ -1,22 +1,26 @@
-/* Basic styling for the webpage */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
     text-align: center;
-    padding: 20px;
 }
 
 h1 {
     color: #007bff;
 }
 
-p {
-    font-size: 18px;
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
 }
